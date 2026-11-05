@@ -322,11 +322,12 @@ export default {
 }
 
 .card {
-  background: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: var(--space-6);
+  margin-bottom: var(--space-6);
+  box-shadow: var(--shadow-raised);
 }
 
 .card-header {
@@ -334,7 +335,7 @@ export default {
 }
 
 .card-title {
-  font-size: 1.25rem;
+  font-size: 16px;
   font-weight: 600;
   color: #0f172a;
   margin: 0;
@@ -421,11 +422,11 @@ export default {
 }
 
 .stat-card {
-  background: white;
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  border-left: 4px solid #3b82f6;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-raised);
 }
 
 .stat-label {
@@ -435,8 +436,8 @@ export default {
 }
 
 .stat-value {
-  font-size: 1.875rem;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 600;
   color: #0f172a;
 }
 
