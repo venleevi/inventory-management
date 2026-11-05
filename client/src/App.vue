@@ -68,7 +68,7 @@
             <path d="M14 3v5h5" />
             <path d="M9 13h6M9 17h6" />
           </svg>
-          <span>Reports</span>
+          <span>{{ t('nav.reports') }}</span>
         </router-link>
       </nav>
 
